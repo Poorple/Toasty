@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+section{
+    position: relative;
+    width:100vw;
+    width:100dvw;
+    height: 40rem;
+    left:50%;
+    translate:-50%;
+}
+.first-section{       
+    position:relative;
+    overflow: hidden;
+    background-color: var(--tetriary-color);    
+    h2{
+        position:absolute;        
+        font-family: "Rubik Mono One", monospace;
+        font-size: 2.5rem;
+        width: 100%;
+        text-shadow: var(--fourth-color) 1px 0px 1px;
+        z-index: 2;
+        text-align: center;
+        left:60%;
+        top:15%;
+        translate:-70%;
+        animation-name: entrance-leftside;
+        animation-duration: 1.5s;
+    }&.fade-in {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+    .opening-article{
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        font-size: 1.5rem;
+        right:20%;
+        bottom:15%;
+        z-index: 2;
+        button{
+            position: relative;
+            background: var(--fourth-color);
+            display:grid;
+            place-content: center;
+            width:7rem;
+            height:1.5rem;
+            font-size: 1.25rem;
+            align-self: flex-end;
+            right:10%;
+            padding:1rem;
+            border-radius:10px;
+            border:none;
+            &:hover{
+                background: var(--primary-color);
+                color:var(--secondary-color)
+            }
+        }
+        animation-name: entrance-rightside;
+        animation-duration: 1.5s;
+    }
+    .grains{
+        position: absolute;
+        width:30rem;
+        height: 30rem;
+        top:0;
+        right: 0;
+        transform: scaleX(-1);
+    }
+    .first-loaf{
+        position:absolute;
+        width:30rem;
+        bottom:-8rem;
+        left:-8rem;
+        rotate:-35deg
+    }    
+}
+.second-section{
+    h2{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .grid-map{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:2rem;
+        padding:2rem;
+        place-items: center;
+    }
+    article{
+        display:grid;
+        grid-template-rows: 1fr;
+        place-items: center;   
+        padding:2rem;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        border-radius: 15px;
+        h3{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        img{
+            width: fit-content;
+        }
+    }
+}
+@keyframes entrance{
+    from{ opacity:0}
+    to{ opacity:1}
+}
+@keyframes entrance-leftside{
+    from{ transform:translateX(-200%)}
+    to{ transform:translateX(0)}
+}
+@keyframes entrance-rightside{
+    from{ transform:translateX(200%)}
+    to{ transform:translateX(0)}
+}
+@keyframes identifier {
+    
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    
+  }

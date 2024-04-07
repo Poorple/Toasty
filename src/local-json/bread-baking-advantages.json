@@ -1,0 +1,32 @@
+[
+      {
+        "advTitle": "Healthier Options",
+        "advDescription": "Homemade bread can be healthier than store-bought varieties because you can choose wholesome ingredients.",
+        "srcPath": "/icons8-heart-64.png"
+      },
+      {
+        "advTitle": "Freshness",
+        "advDescription": "Nothing beats the aroma and taste of freshly baked bread straight from the oven. Making your own bread ensures you enjoy it at its peak freshness.",
+        "srcPath": "/icons8-natural-food-64.png"
+      },
+      {
+        "advTitle": "Cost-effective",
+        "advDescription": "While initial investment in ingredients and equipment may seem high, making your own bread can be cost-effective in the long run, especially if you bake regularly.",
+        "srcPath": "/icons8-dollar-coin-64.png"
+      },
+      {
+        "advTitle": "Creative Outlet",
+        "advDescription": "Experience a creative process that allows you to experiment with different flavors, shapes, and textures, providing a fulfilling and enjoyable hobby.",
+        "srcPath": "/icons8-creative-64.png"
+      },
+      {
+        "advTitle": "Family Bonding",
+        "advDescription": "Fun activity to do with family and friends, fostering bonding and creating cherished memories together.",
+        "srcPath": "/icons8-family-64.png"
+      },
+      {
+        "advTitle": "Skill Development",
+        "advDescription": "Learning to bake bread from scratch enhances your culinary skills and knowledge of baking techniques, empowering you in the kitchen.",
+        "srcPath": "/icons8-rolling-pin-64.png"
+      }
+    ]
