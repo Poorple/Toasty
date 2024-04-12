@@ -1,6 +1,7 @@
 import "../styles/home.scss";
-import advantages from "../local-json/bread-baking-advantages.json";
 import { useEffect, useRef, useState } from "react";
+import OurBreads from "./OurBreads";
+import DeliciousBaking from "./DeliciousBaking";
 
 const Home = () => {
   const targetRef = useRef<HTMLHeadingElement>(null);
@@ -51,26 +52,8 @@ const Home = () => {
 
         <img className="first-loaf" src="/bread-loaf.png" />
       </section>
-      <section className="second-section">
-        <h2>
-          {/* Bread: the universal love language of the culinary world */}
-          Delicious Baking
-        </h2>
-        <div className="grid-map">
-          {advantages.map((x) => (
-            <article key={x.advTitle}>
-              <img src={x.srcPath} />
-              <div>
-                <h3>{x.advTitle}</h3>
-                <p>{x.advDescription}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-      <section>
-        <h2>Our Breads</h2>
-      </section>
+      <DeliciousBaking />
+      <OurBreads />
     </>
   );
 };

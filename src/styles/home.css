@@ -3,7 +3,7 @@ section {
   position: relative;
   width: 100vw;
   width: 100dvw;
-  height: 40rem;
+  min-height: 40rem;
   left: 50%;
   translate: -50%;
 }
@@ -75,36 +75,6 @@ section {
   bottom: -8rem;
   left: -8rem;
   rotate: -35deg;
-}
-
-.second-section h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 1rem;
-}
-.second-section .grid-map {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
-  place-items: center;
-}
-.second-section article {
-  display: grid;
-  grid-template-rows: 1fr;
-  place-items: center;
-  padding: 2rem;
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-  border-radius: 15px;
-}
-.second-section article h3 {
-  text-align: center;
-  font-size: 1.5rem;
-}
-.second-section article img {
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 @keyframes entrance {

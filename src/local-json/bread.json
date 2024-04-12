@@ -1,0 +1,318 @@
+{
+  "breads": [
+    {
+      "breadName": "WHITE BREAD",
+      "advDescription": "Made from wheat flour from which the bran and the germ layers have been removed from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour.",
+      "srcPath": "/white-bread.jpg",
+      "ingredients": [
+        {
+          "salt": "12 grams",
+          "flour": [
+            "500 grams of strong white flour"
+          ],
+          "yeast": "7 grams of fast-action",
+          "water": "300ml",
+          "oil": "36 mililiters of olive oil"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "2.50 hours",
+          "preparation time": "20 minutes",
+          "rest": "2 hours",
+          "bake time": "30 minutes"
+        }
+      ],
+      "steps": [
+        "Mix 500g strong white flour, 2 tsp salt and a 7g sachet of fast-action yeast in a large bowl.",
+        "Make a well in the centre, then add 3 tbsp olive oil and 300ml water, and mix well. If the dough seems a little stiff, add another 1-2 tbsp water and mix well.",
+        "Tip onto a lightly floured work surface and knead for around 10 mins.",
+        "Once the dough is satin-smooth, place it in a lightly oiled bowl and cover with cling film. Leave to rise for 1 hour until doubled in size or place in the fridge overnight.",
+        "Line a baking tray with baking parchment. Knock back the dough (punch the air out and pull the dough in on itself) then gently mould the dough into a ball.",
+        "Place it on the baking parchment to prove for a further hour until doubled in size.",
+        "Heat oven to 220 °C",
+        "Dust the loaf with some extra flour and cut a cross about 6cm long into the top of the loaf with a sharp knife.",
+        "Bake for 25-30 mins until golden brown and the loaf sounds hollow when tapped underneath. Cool on a wire rack."
+      ],
+      "source": "https://www.bbcgoodfood.com/recipes/easy-white-bread"
+    },
+    {
+      "breadName": "FARMING BREAD",
+      "advDescription": "Also known as Burebrot, originating from Switzerland, unlike most other breads, which are mainly composed of flour, yeast and water, the Burebrot also contains milk.",
+      "srcPath": "/farmer-bread.jpg",
+      "ingredients": [
+        {
+          "salt": "10 grams",
+          "flour": [
+            "350 grams of wheat flour",
+            "150 grams of rye flour"
+          ],
+          "yeast": "20 grams",
+          "water": "200 mililiters",
+          "milk": "200 mililiters"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "2.25 hours",
+          "preparation time": "",
+          "rest": "1.2 hours",
+          "bake time": "40 minutes"
+        }
+      ],
+      "steps": [
+        "Combine the flours and yeast in a large bowl, add the water and the milk and mix until a dough forms.",
+        "Add the salt adn knead the dough for approximately 10 minutes until smooth.",
+        "Let the dough rest until it has become twice as large.",
+        "Preheat the oven to 230 °C.",
+        "Round the dough, dust with flour, turn around and place on the baking sheet.",
+        "Let the dough sit again for a few minutes",
+        "Score the bread in desired pattern, with obligatory slash along the whole bread, to let the steam escape.",
+        "Bake between 40-50 mins. Cool on a wire rack."
+      ],
+      "source": "https://schweizerbrot.ch/rezept/burebrot/"
+    },
+    {
+      "breadName": "LOAF BREAD",
+      "advDescription": "While initial investment in ingredients and equipment may seem high, making your own bread can be cost-effective in the long run, especially if you bake regularly.",
+      "srcPath": "/loaf-bread.jpg",
+      "ingredients": [
+        {
+          "salt": "8 grams",
+          "sugar": "6 grams",
+          "flour": [
+            "270-300 grams of bread flour"
+          ],
+          "yeast": "3.5 grams",
+          "water": "190 mililiters"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "2.55 hours",
+          "preparation time": "20 minutes",
+          "rest": "2 hours",
+          "bake time": "30 minutes"
+        }
+      ],
+      "steps": [
+        "Stir together all of the ingredients in a large bowl, starting with 540g of flour. Use a sturdy spoon, or your stand mixer equipped with the beater paddle. Mix until everything comes together in a rough, shaggy mass of dough.",
+        "If you’re kneading the dough by hand, turn it out onto a lightly floured surface, using some of the additional 30 grams of flour called for. Fold the far edge of the dough back over on itself towards you, then press it away from you with the heels of your hands. Rotate the dough 90°. Repeat this fold-press-rotate process with a rhythmic, rocking motion for about 6 minutes. When fully kneaded, the dough will be bouncy and smooth.",
+        "If you’re using your stand mixer, switch to the dough hook and knead the dough at medium speed for about 7 minutes, until it’s smooth, elastic, and feels a bit bouncy. If the dough doesn’t form a ball that clears the sides of the bowl, sprinkle in just enough of the additional flour to make this happen.",
+        "Place the dough in a bowl that’s been lightly greased with vegetable oil or cooking spray; the bowl you started with is fine. Cover the bowl with plastic wrap or another airtight cover, and let the dough rise at room temperature until it's doubled in size, about 1 to 2 hours. If your kitchen is particularly cold (below 18 °c), place the bowl of dough in your turned-off oven with the oven light on.",
+        "Gently deflate the dough and pat into a rough 15cm x 20cm oval.",
+        "Grab a short side and fold the dough like a business letter (one short side into the center, the other short side over it). Use the heel of your hand to press the open edge of the “letter” closed. Gently pat and roll the dough into a log about 25cm long",
+        "Place the loaf, seam-side down, on a baking sheet (lined with parchment if desired). Sprinkle the pan (or parchment) generously with cornmeal; this will keep the bread from sticking and give it a crunchy bottom crust.",
+        "Let the loaf rise, lightly covered with greased plastic wrap, for 45 minutes. They should become nicely puffy. Gently poke your index finger into the side of one of the loaves; if the indentation remains, your bread is ready to bake.",
+        "Towards the end of the rising time, preheat the oven to 200 °C.",
+        "When your bread is risen, use a sieve to dust the loaves with a thin coat of flour. Then make three or four 1.5cm deep diagonal slashes in each loaf; these slashes will help the bread rise evenly as it bakes. Place the bread in the oven. Quickly shut the oven door. Wear good oven mitts during this process to shield your hands and arms from the steam.",
+        "For a better crust you can spritz water on the bread with a spritz bottle for a few times during baking but this will prolong the bake time.",
+        "Bake the bread for 20 to 25 minutes, until the crust is golden brown and a loaf sounds hollow to the touch when you tap it on the bottom. The interior temperature of the bread should register at least 105 °C on a digital thermometer.",
+        "Turn the oven off, crack the door open, and allow the bread to remain inside for 5 additional minutes; this helps keep the crust crisp. Remove the bread from the oven and cool it on a rack. It’s best not to cut into the bread until it’s cooled down a bit; cutting into hot bread can negatively affect its texture.",
+        ""
+      ],
+      "source": "https://www.kingarthurbaking.com/recipes/the-easiest-loaf-of-bread-youll-ever-bake-recipe"
+    },
+    {
+      "breadName": "SOURDOUGH",
+      "advDescription": "Sourdough or sourdough bread is a bread made by the fermentation of dough using wild lactobacillaceae and yeast. Lactic acid from fermentation imparts a sour taste and improves keeping qualities.",
+      "srcPath": "/sourdough.jpg",
+      "ingredients": [
+        {
+          "starter": "125 grams of strong white bread flour",
+          "levain": {
+            "yeast": "7.5 grams",
+            "flour": "50 grams of strong bread flour"
+          },
+          "bread": {
+            "salt": "10 grams",
+            "flour": "500 grams of strong white bread flour"
+          }
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "4.40 hours, plus six days feeding the starter, chilling and cooling",
+          "preparation time": "1 hour",
+          "rest": "3 hours",
+          "bake time": "40 minutes"
+        }
+      ],
+      "steps": [
+        "Day 1: To begin your starter, mix 25g flour with 25g tepid water in a jar or, better still, a plastic container. Make sure all the flour is incorporated and leave, semi-uncovered, at room temperature for 24 hrs.",
+        "Day 2: Mix 25g flour with 25g tepid water and stir into yesterday’s mixture. Make sure all the flour is incorporated and leave, semi-uncovered, at room temperature for another 24 hrs.",
+        "Day 3: Mix 25g flour with 25g tepid water and stir into yesterday’s mixture. Make sure all the flour is incorporated and leave, semi-uncovered, at room temperature for another 24 hrs.",
+        "Day 4: You should start to see some activity in the mixture now; there should be some bubbles forming and bubbling on top. Mix 25g flour with 25g tepid water and stir into yesterday’s mixture. Make sure all the flour is incorporated and leave, semi-uncovered, at room temperature for another 24 hrs.",
+        "Day 5: The mixture should be very active now and ready for making your levain. If it’s not bubbling, continue to feed it on a daily basis until it does. When it’s ready, it should smell like yogurt.",
+        "You now have a starter, which is the base to the bread. You’ll need to look after it, but naming is optional! Keep it in the fridge (it will stay dormant) and 24 hrs before you want to use it, pour half of it off and feed it with 50g flour and 50g water. Leave it at room temperature and it should become active again. The longer the starter has been dormant, the more times it will need to be refreshed – the process of pouring off half the starter and replacing it with new flour and water – to reactivate. If your starter is ready to use, a teaspoonful of the mixture should float in warm water.",
+        "For the levain: Mix 1 tbsp of the starter with 50g flour and 50g water (this is the same process as feeding the starter, but you should do this in a new, separate bowl, keeping the original starter as back-up, as this is the mixture you'll use to bake your bread). Leave the levain for 8 hrs at room temperature until it becomes active. When ready, a teaspoonful of the mixture should float in warm water.",
+        "For the bread: Pour 300g tepid water into the levain and stir with a rubber spatula to mix together – don’t worry if there are unmixed bits of levain. Tip in the flour and mix everything together with a rubber spatula to make a rough dough, ensuring all the flour is incorporated evenly and that there are no dry bits up the side of the bowl. Cover and leave somewhere warm for at least 30 mins, or up to 4 hrs.",
+        "Sprinkle over the salt and add 25g water to the dough. Pinch and scrunch the salt and water through the dough with your hands. If the dough goes stringy (like old chewing gum), just keep working it until it’s one smooth texture. Leave for another 15 mins.",
+        "Wet your hands, grab the dough from one side and stretch it over itself, then repeat with the other side. This stretching technique helps develop the gluten. Pick the dough up and curl it around onto itself, then cover and leave for another 20-30 mins. Repeat this process two more times (three in total), then leave the dough for another 2-3 hrs until it’s risen by about 30% and looks bubbly and soft.",
+        "Using a rubber spatula, scrape the dough out onto a lightly floured work surface. Fold the dough onto itself to create a ball, then leave uncovered for 30 mins. The dough ball will spread during this time.",
+        "Dust a bread-proving baskets generously with flour. Scrape the ball of dough off the work surface, then fold it onto itself to create a tight ball that’s trapped in all the air. Lift the ball into a basket, seam-side up, then transfer to the fridge to chill overnight, or for up to 18 hrs.",
+        "Heat the oven to 240 °C and put a lidded casserole dish in the oven to heat. Cut a sheet of baking parchment into a square slightly larger than the base of one of the loaves. Carefully remove the hot casserole dish from the oven and remove the lid. Invert the loaf onto the baking parchment, then, working quickly, score the top at an angle. Use the corners of the parchment to lift the loaf into the casserole dish. Cover with the lid and bake for 30 mins, then carefully uncover and continue to bake for another 10 mins (or longer for a darker finish). Carefully lift the bread out of the dish using a spatula, transfer to a wire rack and leave to cool to room temperature before slicing."
+      ],
+      "source": "https://www.bbcgoodfood.com/recipes/white-sourdough"
+    },
+    {
+      "breadName": "OLIVE BREAD",
+      "advDescription": "Olive bread is a bread laced with olives. It originated in Italy, where it is prepared using black salt-cured olives, green Spanish-style olives, and other types.",
+      "srcPath": "/olive-bread.jpg",
+      "ingredients": [
+        {
+          "salt": "7.5 grams",
+          "flour": [
+            "420 grams of bread or wheat flour"
+          ],
+          "yeast": "12.5 grams",
+          "water": "375 mililiters",
+          "oil": "15 grams of olive oil",
+          "olives": "250 grams of kalamata olives"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "3.30 hours",
+          "preparation time": "20-30 minutes",
+          "rest": "2 hours",
+          "bake time": "1 hour"
+        }
+      ],
+      "steps": [
+        "Lay a clean kitchen towel on a cookie tray and dust liberally with cornmeal, then set it aside.",
+        "Combine the flour, yeast, salt, and olives together in a stand mixer with a dough hook.",
+        "Add the warm water and gently mix together until the dough starts to come together. ",
+        "Dust your table with flour and dump the dough out of the bowl. Knead the dough into a ball shape. ",
+        "Coat a large bowl with the olive oil and return the dough to the bowl.",
+        "Cover with a clean towel and let it sit until the dough doubles in size. ",
+        "Once it’s risen, take it out of the bowl and roughly press it into a flat circle. Then knead it back into a ball.",
+        "Pop the dough onto the cornmeal-dusted towel and dust the top with some additional cornmeal.",
+        "Place the empty dutch oven (or pot)  into your oven and preheat to 450°F. ",
+        "When the oven is preheated, use a serrated knife to cut 2-3 slips in the top of the dough.",
+        "Take the dutch oven out of the oven and put the dough into the pot. Put the lid on and put it back in the oven. ",
+        "Bake for 30 minutes. ",
+        "Take off the lid and back for another 20-30 minutes until the crust is golden and crispy. Let cool on a wire rack"
+      ],
+      "source": "https://foodnessgracious.com/recipes/mediterranean-olive-bread"
+    },
+    {
+      "breadName": "WHOLE GRAIN",
+      "advDescription": "Learning to bake bread from scratch enhances your culinary skills and knowledge of baking techniques, empowering you in the kitchen.",
+      "srcPath": "/whole-grain-bread.jpg",
+      "ingredients": [
+        {
+          "preferment": {
+            "flour": "120 grams of bread flour",
+            "water": "120 mililiters",
+            "yeast": "1.5 grams"
+          },
+          "salt": "6 grams",
+          "flour": [
+            "360 grams of white whole wheat flour",
+            "300 grams of bread flour"
+          ],
+          "yeast": "6 grams",
+          "water": "360 mililiters(divided)",
+          "oats": "240 grams of regular rolled oats",
+          "seeds": "240 grams of seeds(combined sunflower, sesame and flax)",
+          "egg": "1 beaten",
+          "flax": "30 grams of ground flax seeds"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "5.25 hours",
+          "preparation time": "15 minutes",
+          "rest": "4.5 hours",
+          "bake time": "40 minutes"
+        }
+      ],
+      "steps": [
+        "The night before baking the bread make the preferment. In the bowl of your stand mixer, mix together the flour, water and yeast until a smooth paste forms. Cover the bowl and allow the preferment to ripen at room temperature overnight. The preferment will double in size and become bubbly on top as it sits.",
+        "The next day measure out 60 mililiters of warm water in a glass measuring cup or bowl. Add the yeast and honey. Mix to combine and then allow the mixture to sit, undisturbed for 5 minutes or until the mixture is foamy on top and smells like bread. During the same time add the remaining 300 mililiters cups warm water to a bowl. Add the oats and ground flax. Allow this mixture to sit 5 minutes.",
+        "After 5 minutes add both the yeast mixture and oats mixture to the bowl with the preferment from the night before. Add the whole wheat flour, bread flour and salt. Using the dough hook, mix the dough on medium speed for 4-6 minutes. If the dough seems extremely sticky, add 1-2 tablespoons flour. Now add in 30-40 grams of the mixed seeds. Mix until combined.",
+        "Remove the dough from the bowl and knead with your hands on a floured surface for a minute or two.",
+        "Grease the bowl you mixed the dough in and place the dough back in the bowl. Cover with plastic wrap and place in a warm area for 1 1/2 to 2 hours or until the dough has doubled in size.",
+        "Once the dough has doubled in size, preheat to the oven 230 °C. Place a 5-quart, or larger, cast iron dutch oven with a tight fitting lid in the center of the rack. You may also use a baking stone, but I have found the the dutch oven with a lid works the best.",
+        "Punch the dough down with your fist and then scoop it out onto a floured work surface. Knead the dough a few times with your hands and then form the dough into rough oval or circle shape (if needed, you can divided the dough in half and make two loafs). Place the dough on a parchment lined baking sheet and cover with a damp kitchen towel. Allow the dough to rise 20-30 minutes.",
+        "After 20-30 minutes, brush the dough with the beaten egg and then sprinkle with the remaining mixed seeds. Using a sharp knife, gently make a small slit down the center of the loaf. Drizzle the the seeds with 1-2 teaspoons honey.",
+        "When the dough is ready to bake, carefully remove the hot dutch oven from the oven using oven mitts and remove the lid. Very carefully, pick the dough up by the parchment paper and lift into the hot dutch oven. Using oven mitts, place the hot lid back on the pot and return to the oven. Bake for 20 minutes, then reduce the heat to 190 °C. Using oven mitts, remove the hot lid and continue baking until the bread is a deep, golden brown, about 15-20 minutes more. Remove from the oven. Using a thin handle of a spatula, carefully lift the bread out of the pot and place it on a rack to cool completely, about 2 hours. Don't slice into the bread right out of the oven, the bread continues to cook as it cools."
+      ],
+      "source": "https://www.halfbakedharvest.com/seeded-whole-grain-breakfast-bread/"
+    },
+    {
+      "breadName": "BAGUETTE",
+      "advDescription": "Baguette is a long, thin type of bread of French origin that is commonly made from basic lean dough (the dough, not the shape, is defined by French law). It is distinguishable by its length and crisp crust.",
+      "srcPath": "/baguette.JPG",
+      "ingredients": [
+        {
+          "salt": "10 grams",
+          "flour": [
+            "500 grams of bread flour"
+          ],
+          "yeast": "3 grams",
+          "water": "360 mililiters",
+          "honey": "25 grams of honey"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "15 hours",
+          "preparation time": "30 minutes",
+          "rest": "14 hours",
+          "bake time": "30 minutes"
+        }
+      ],
+      "steps": [
+        "Mix all ingredients in a bowl, cover with a plastic wrap and let rest for 15 minutes.",
+        "Over a period of 1 1/2 hours, do 3 sets of stretch and folds, flipping the dough upside down after each set.",
+        "Cover the bowl with a plastic wrap and place in refrigerator overnight for about 12-14 hours.",
+        "Turn the dough on a lightly floured work surface. Divide into 3 equal parts and shape into rectangles. Cover and let rest for 45-60 minutes.",
+        "Stretch each dough rectangle slightly and fold into a cylinder, sealing the seams. Using your hands, roll the cylinders gently stretching them to desired length, about 14-15 inches.",
+        "Place on a lightly floured couche, seam side up. Cover and proof at a room temperature for about 30-60 minutes, or until the dough has sufficiently proofed.",
+        "Starting preheating the oven to 260 °C, with a baking stone positioned in the upper half the oven and a bread pan filled with hot water on the bottom rack.",
+        "Transfer the baguettes to a piece of parchment paper, seam side down and dust off excess flour. Using a bread lame, a sharp knife or a razor blade, make 3 scores on each baguette. When scoring, use a swift and firm motion to ensure nice and clean cuts.",
+        "Open the oven, taking caution not to get burned by steam, and slide the baguettes off onto the baking stone. Close the oven and reduce temperature to 245 °C. Bake for 15 minutes",
+        "Remove the water pan, rotate the baguettes, drop the temperature to  230 °C and continue baking for another 15 minutes or until deep golden brown."
+      ],
+      "source": "https://tasteofartisan.com/french-baguette-recipe/"
+    },
+    {
+      "breadName": "FOCACCIA",
+      "advDescription": "Focaccia is a flat leavened oven-baked Italian bread. Focaccia may be served as a side dish or as sandwich bread and it may be round, rectangular, or square shape.",
+      "srcPath": "/focaccia.jpg",
+      "ingredients": [
+        {
+          "salt": "20 grams",
+          "flour": [
+            "600 grams of bread flour"
+          ],
+          "yeast": "7 grams",
+          "water": "590 mililiters",
+          "oil": "90 mililiters",
+          "honey": "15 grams",
+          "butter": "60 grams"
+        }
+      ],
+      "prepTime": [
+        {
+          "total": "2.50 hours",
+          "preparation time": "20 minutes",
+          "rest": "2 hours",
+          "bake time": "30 minutes"
+        }
+      ],
+      "steps": [
+        "Whisk 7 grams of active dry yeast, 15 grams of honey, and 590 mililiters of lukewarm water in a medium bowl and let sit 5 minutes (it should foam or at least get creamy; if it doesn’t your yeast is dead and you should start again—check the expiration date!).",
+        "Add 600 grams of bread flour and 20 grams of kosher salt and mix with a rubber spatula until a shaggy dough forms and no dry streaks remain.",
+        "Pour 60 mililiters extra-virgin olive oil into a big bowl that will fit in your refrigerator. This puppy is going to rise! Transfer dough to bowl and turn to coat in oil. Cover with a silicone lid or plastic wrap and chill until dough is doubled in size (it should look very bubbly and alive), at least 8 hours and up to 1 day. If you're in a rush, you can also let it rise at room temperature until doubled in size, 3–4 hours.",
+        "Generously butter a 33x23cm baking pan, for thicker focaccia that’s perfect for sandwiches, or an 45x33cm rimmed baking sheet, for focaccia that's thinner, crispier, and great for snacking. The butter may seem superfluous, but it’ll ensure that your focaccia doesn’t stick. Pour 15 mililiters extra-virgin olive oil into center of pan. Keeping the dough in the bowl and using a fork in each hand, gather up edges of dough farthest from you and lift up and over into center of bowl. Give the bowl a quarter turn and repeat process. Do this 2 more times; you want to deflate dough while you form it into a rough ball. Transfer dough to prepared pan. Pour any oil left in bowl over and turn dough to coat it in oil. Let rise, uncovered, in a dry, warm spot (like near a radiator or on top of the fridge or a preheating oven) until doubled in size, at least 1½ hours and up to 4 hours.",
+        "Place a rack in middle of oven; preheat to 230 °C. To see if the dough is ready, poke it with your finger. It should spring back slowly, leaving a small visible indentation. If it springs back quickly, the dough isn’t ready. (If at this point the dough is ready to bake but you aren’t, you can chill it up to 1 hour.) Lightly oil your hands. If using a rimmed baking sheet, gently stretch out dough to fill (you probably won't need to do this if using a baking pan). Dimple focaccia all over with your fingers, like you’re aggressively playing the piano, creating very deep depressions in the dough (reach your fingers all the way to the bottom of the pan). Drizzle with remaining 15 mililiters of extra-virgin olive oil and sprinkle with flaky sea salt. Bake focaccia until puffed and golden brown all over, 20–30 minutes.",
+        "Hold off on this last step until you're ready to serve the focaccia: Melt 60 grams of unsalted butter in a small saucepan over medium heat. Remove from heat. Peel and grate in 2–4 garlic cloves with a Microplane (use 2 cloves if you’re garlic-shy or up to 4 if you love it). Return to medium heat and cook, stirring often, until garlic is just lightly toasted, 30–45 seconds. (Or, if you prefer raw garlic to toasted garlic, you can grate the garlic into the hot butter, off heat, then brush right away.)",
+        "Brush garlic-butter all over focaccia and slice into squares or rectangles."
+      ],
+      "source": "https://www.bonappetit.com/recipe/easy-no-knead-focaccia"
+    }
+  ]
+}
