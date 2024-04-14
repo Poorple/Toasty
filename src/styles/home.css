@@ -56,6 +56,7 @@ section {
   padding: 1rem;
   border-radius: 10px;
   border: none;
+  transition: background-color 0.3s ease;
 }
 .first-section .opening-article button:hover {
   background: var(--primary-color);
@@ -101,4 +102,103 @@ section {
     transform: translateX(0);
   }
 }
-@keyframes identifier {}/*# sourceMappingURL=home.css.map */
+@media screen and (max-width: 1500px) {
+  .first-section {
+    text-align: center;
+  }
+  .first-section h2 {
+    font-size: 2rem;
+    left: 0;
+    top: 3rem;
+    translate: 0;
+  }
+  .first-section .opening-article {
+    font-size: 1.75rem;
+    right: 0;
+    bottom: 2rem;
+    translate: 0;
+    padding: 1rem;
+  }
+  .first-section .opening-article button {
+    align-self: center;
+    right: 0;
+  }
+  .first-section .grains {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    transform: scaleX(-1);
+  }
+  .first-section .first-loaf {
+    position: absolute;
+    width: 25rem;
+    bottom: -5rem;
+    left: -5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first-section {
+    text-align: center;
+  }
+  .first-section h2 {
+    font-size: 2rem;
+    left: 0;
+    top: 3rem;
+    translate: 0;
+  }
+  .first-section .opening-article {
+    font-size: 1.75rem;
+    right: 0;
+    translate: 0;
+    padding: 1rem;
+  }
+  .first-section .opening-article button {
+    align-self: center;
+    right: 0;
+  }
+  .first-section .grains {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    transform: scaleX(-1);
+  }
+  .first-section .first-loaf {
+    position: absolute;
+    width: 20rem;
+    bottom: -4rem;
+    left: -4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first-section {
+    text-align: center;
+  }
+  .first-section h2 {
+    font-size: 2rem;
+    left: 0;
+    top: 3rem;
+    translate: 0;
+  }
+  .first-section .opening-article {
+    font-size: 1.5rem;
+    right: 0;
+    translate: 0;
+    padding: 1rem;
+  }
+  .first-section .opening-article button {
+    align-self: center;
+    right: 0;
+  }
+  .first-section .grains {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    transform: scaleX(-1);
+  }
+  .first-section .first-loaf {
+    position: absolute;
+    width: 14rem;
+    bottom: -3rem;
+    left: -3rem;
+  }
+}/*# sourceMappingURL=home.css.map */

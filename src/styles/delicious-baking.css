@@ -26,4 +26,29 @@
 .second-section article img {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+@media screen and (max-width: 1500px) {
+  .second-section .grid-map {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  article {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .second-section .grid-map {
+    grid-template-columns: 1fr 1fr;
+  }
+  article {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .second-section .grid-map {
+    grid-template-columns: 1fr;
+  }
+  article {
+    height: auto;
+  }
 }/*# sourceMappingURL=delicious-baking.css.map */
