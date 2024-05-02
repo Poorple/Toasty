@@ -1,0 +1,5 @@
+.header-and-img-sect img {
+  width: 100dvw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=recipe.css.map */
