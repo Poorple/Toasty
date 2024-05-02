@@ -4,17 +4,16 @@
       "breadName": "WHITE BREAD",
       "advDescription": "Made from wheat flour from which the bran and the germ layers have been removed from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour.",
       "srcPath": "/white-bread.jpg",
-      "ingredients": [
+      "ingredients": 
         {
+          "flour": 
+            "500 grams of strong white flour",
           "salt": "12 grams",
-          "flour": [
-            "500 grams of strong white flour"
-          ],
           "yeast": "7 grams of fast-action",
           "water": "300ml",
           "oil": "36 mililiters of olive oil"
         }
-      ],
+      ,
       "prepTime": [
         {
           "total": "2.50 hours",
@@ -40,29 +39,28 @@
       "breadName": "FARMING BREAD",
       "advDescription": "Also known as Burebrot, originating from Switzerland, unlike most other breads, which are mainly composed of flour, yeast and water, the Burebrot also contains milk.",
       "srcPath": "/farmer-bread.jpg",
-      "ingredients": [
+      "ingredients":
         {
-          "salt": "10 grams",
           "flour": [
             "350 grams of wheat flour",
             "150 grams of rye flour"
           ],
+          "salt": "10 grams",
           "yeast": "20 grams",
           "water": "200 mililiters",
           "milk": "200 mililiters"
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "2.25 hours",
-          "preparation time": "",
+          "preparation time": "25 minutes",
           "rest": "1.2 hours",
           "bake time": "40 minutes"
         }
       ],
       "steps": [
         "Combine the flours and yeast in a large bowl, add the water and the milk and mix until a dough forms.",
-        "Add the salt adn knead the dough for approximately 10 minutes until smooth.",
+        "Add the salt and knead the dough for approximately 10 minutes until smooth.",
         "Let the dough rest until it has become twice as large.",
         "Preheat the oven to 230 °C.",
         "Round the dough, dust with flour, turn around and place on the baking sheet.",
@@ -76,17 +74,17 @@
       "breadName": "LOAF BREAD",
       "advDescription": "While initial investment in ingredients and equipment may seem high, making your own bread can be cost-effective in the long run, especially if you bake regularly.",
       "srcPath": "/loaf-bread.jpg",
-      "ingredients": [
+      "ingredients": 
         {
+          "flour": 
+            "270-300 grams of bread flour"
+          ,
           "salt": "8 grams",
           "sugar": "6 grams",
-          "flour": [
-            "270-300 grams of bread flour"
-          ],
           "yeast": "3.5 grams",
           "water": "190 mililiters"
         }
-      ],
+      ,
       "prepTime": [
         {
           "total": "2.55 hours",
@@ -108,8 +106,8 @@
         "When your bread is risen, use a sieve to dust the loaves with a thin coat of flour. Then make three or four 1.5cm deep diagonal slashes in each loaf; these slashes will help the bread rise evenly as it bakes. Place the bread in the oven. Quickly shut the oven door. Wear good oven mitts during this process to shield your hands and arms from the steam.",
         "For a better crust you can spritz water on the bread with a spritz bottle for a few times during baking but this will prolong the bake time.",
         "Bake the bread for 20 to 25 minutes, until the crust is golden brown and a loaf sounds hollow to the touch when you tap it on the bottom. The interior temperature of the bread should register at least 105 °C on a digital thermometer.",
-        "Turn the oven off, crack the door open, and allow the bread to remain inside for 5 additional minutes; this helps keep the crust crisp. Remove the bread from the oven and cool it on a rack. It’s best not to cut into the bread until it’s cooled down a bit; cutting into hot bread can negatively affect its texture.",
-        ""
+        "Turn the oven off, crack the door open, and allow the bread to remain inside for 5 additional minutes; this helps keep the crust crisp. Remove the bread from the oven and cool it on a rack. It’s best not to cut into the bread until it’s cooled down a bit; cutting into hot bread can negatively affect its texture."
+        
       ],
       "source": "https://www.kingarthurbaking.com/recipes/the-easiest-loaf-of-bread-youll-ever-bake-recipe"
     },
@@ -117,9 +115,9 @@
       "breadName": "SOURDOUGH",
       "advDescription": "Sourdough or sourdough bread is a bread made by the fermentation of dough using wild lactobacillaceae and yeast. Lactic acid from fermentation imparts a sour taste and improves keeping qualities.",
       "srcPath": "/sourdough.jpg",
-      "ingredients": [
+      "ingredients":
         {
-          "starter": "125 grams of strong white bread flour",
+          "starter": ["125 grams of strong white bread flour"],
           "levain": {
             "yeast": "7.5 grams",
             "flour": "50 grams of strong bread flour"
@@ -128,8 +126,7 @@
             "salt": "10 grams",
             "flour": "500 grams of strong white bread flour"
           }
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "4.40 hours, plus six days feeding the starter, chilling and cooling",
@@ -159,18 +156,16 @@
       "breadName": "OLIVE BREAD",
       "advDescription": "Olive bread is a bread laced with olives. It originated in Italy, where it is prepared using black salt-cured olives, green Spanish-style olives, and other types.",
       "srcPath": "/olive-bread.jpg",
-      "ingredients": [
+      "ingredients":
         {
+          "flour": 
+            "420 grams of bread or wheat flour",
           "salt": "7.5 grams",
-          "flour": [
-            "420 grams of bread or wheat flour"
-          ],
           "yeast": "12.5 grams",
           "water": "375 mililiters",
           "oil": "15 grams of olive oil",
           "olives": "250 grams of kalamata olives"
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "3.30 hours",
@@ -200,26 +195,25 @@
       "breadName": "WHOLE GRAIN",
       "advDescription": "Learning to bake bread from scratch enhances your culinary skills and knowledge of baking techniques, empowering you in the kitchen.",
       "srcPath": "/whole-grain-bread.jpg",
-      "ingredients": [
+      "ingredients":
         {
           "preferment": {
             "flour": "120 grams of bread flour",
             "water": "120 mililiters",
             "yeast": "1.5 grams"
           },
-          "salt": "6 grams",
           "flour": [
             "360 grams of white whole wheat flour",
             "300 grams of bread flour"
           ],
+          "salt": "6 grams",
           "yeast": "6 grams",
           "water": "360 mililiters(divided)",
           "oats": "240 grams of regular rolled oats",
           "seeds": "240 grams of seeds(combined sunflower, sesame and flax)",
           "egg": "1 beaten",
           "flax": "30 grams of ground flax seeds"
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "5.25 hours",
@@ -245,17 +239,16 @@
       "breadName": "BAGUETTE",
       "advDescription": "Baguette is a long, thin type of bread of French origin that is commonly made from basic lean dough (the dough, not the shape, is defined by French law). It is distinguishable by its length and crisp crust.",
       "srcPath": "/baguette.JPG",
-      "ingredients": [
+      "ingredients":
         {
-          "salt": "10 grams",
           "flour": [
             "500 grams of bread flour"
           ],
+          "salt": "10 grams",
           "yeast": "3 grams",
           "water": "360 mililiters",
           "honey": "25 grams of honey"
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "15 hours",
@@ -282,19 +275,18 @@
       "breadName": "FOCACCIA",
       "advDescription": "Focaccia is a flat leavened oven-baked Italian bread. Focaccia may be served as a side dish or as sandwich bread and it may be round, rectangular, or square shape.",
       "srcPath": "/focaccia.jpg",
-      "ingredients": [
+      "ingredients":
         {
-          "salt": "20 grams",
           "flour": [
             "600 grams of bread flour"
           ],
+          "salt": "20 grams",
           "yeast": "7 grams",
           "water": "590 mililiters",
           "oil": "90 mililiters",
           "honey": "15 grams",
           "butter": "60 grams"
-        }
-      ],
+        },
       "prepTime": [
         {
           "total": "2.50 hours",
