@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import breads from "../local-json/bread.json";
 import "../styles/our-breads.scss";
+import { Link } from "react-router-dom";
 
 const OurBreads = () => {
   let breadsObj = breads.breads;
@@ -40,16 +41,18 @@ const OurBreads = () => {
       <h2>Our Breads</h2>
       <section className="bread-sect">
         {breadsObj.map((x) => (
-          <article
-            className={isVisible ? "visible" : "hidden"}
+          <Link
+            to={`/recipe/${x.breadName.toLowerCase().replace(/\s/g, "-")}`}
             key={x.breadName}
           >
-            <img src={x.srcPath} />
-            <div className="desc-div">
-              <h3>{x.breadName}</h3>
-              <p>{x.advDescription}</p>
-            </div>
-          </article>
+            <article className={isVisible ? "visible" : "hidden"}>
+              <img src={x.srcPath} />
+              <div className="desc-div">
+                <h3>{x.breadName}</h3>
+                <p>{x.advDescription}</p>
+              </div>
+            </article>
+          </Link>
         ))}
       </section>
     </div>
