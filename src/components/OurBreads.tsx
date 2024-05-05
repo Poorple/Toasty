@@ -37,9 +37,9 @@ const OurBreads = () => {
   }, [animationPlayed]);
 
   return (
-    <div ref={ref} className="bread-div">
+    <section className="bread-sect">
       <h2>Our Breads</h2>
-      <section className="bread-sect">
+      <div ref={ref} className="bread-div">
         {breadsObj.map((x) => (
           <Link
             to={`/recipe/${x.breadName.toLowerCase().replace(/\s/g, "-")}`}
@@ -54,8 +54,8 @@ const OurBreads = () => {
             </article>
           </Link>
         ))}
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

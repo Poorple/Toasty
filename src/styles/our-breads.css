@@ -16,6 +16,10 @@
   height: -moz-max-content;
   height: max-content;
 }
+.bread-div .bread-sect a {
+  text-decoration: none;
+  color: black;
+}
 .bread-div .bread-sect article {
   position: relative;
   background: #ffffff;

@@ -1,4 +1,4 @@
-.bread-div{
+.bread-sect{
     background:var(--tetriary-color);
     h2{
         text-align: center;
@@ -6,26 +6,33 @@
         padding-top: 1rem;
         margin-bottom:1rem;
         }
-        .bread-sect{
+        .bread-div{
             display:grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap:20px;
             padding:1rem;
-            height: max-content;    
-               
+            height: max-content;
+            padding-left:15dvw;    
+            padding-right:15dvw;
+            align-items: stretch;
+            a{
+                text-decoration: none;
+                color: black;
+            }
         article{
             position: relative;
             background:#ffffff;
             display:grid;
             grid-template-rows: 70% auto;
-            height:100%;
+            height:35rem;
             min-width:20rem;
             border-radius: 25px;
             box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
             padding-left:30px;
             padding-right:30px;
             padding-bottom:30px;
+            
             &.hidden{
                 opacity: 0;
                 transition: all 0.5s;       
@@ -64,7 +71,7 @@
             img{
                 margin-top: 2rem;                
                 width:  100%;
-                height: 80%;
+                height: 90%;
                 border-radius: 20px;
                 object-fit: cover;
             }
@@ -81,20 +88,26 @@
     to{ transform:translateX(0)}
 }
 @media screen and (max-width: 1500px) {
-    .bread-div{
     .bread-sect{
+    .bread-div{
         grid-template-columns: 1fr 1fr 1fr;
+        padding-left:1rem;
+        padding-right:1rem;
     }}
 }
 @media screen and (max-width: 1000px) {
-    .bread-div{
-        .bread-sect{
+    .bread-sect{
+        .bread-div{
             grid-template-columns: 1fr 1fr;
+            padding-left: 1rem;
+            padding-right: 1rem;           
         }}
     }
 @media screen and (max-width: 600px) {
-    .bread-div{
     .bread-sect{
+    .bread-div{
         grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }}
 }
