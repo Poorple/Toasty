@@ -1,5 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+.header-and-img-sect {
+  min-height: 0;
+  height: 30rem;
+}
 .header-and-img-sect img {
   width: 100dvw;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 100%;
+}
+
+.aa {
+  width: 70dvw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0;
+}
+.aa > section {
+  translate: 0;
+  left: 0;
+}
+
+.prep-and-ingredients-sect {
+  padding-left: 2rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  height: 100dvh;
+  font-size: 1.25rem;
+  overscroll-behavior: contain;
+  background: var(--fourth-color);
+}
+.prep-and-ingredients-sect h2 {
+  position: relative;
+  left: 50%;
+  translate: -50%;
+  font-size: 2.5rem;
+  font-family: "Zeyada", cursive;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.prep-and-ingredients-sect h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.prep-and-ingredients-sect .ingredients-div {
+  padding-right: 2rem;
+}
+.prep-and-ingredients-sect .ingredients-div div {
+  border-bottom: 1px solid black;
+}
+.prep-and-ingredients-sect .ingredients-div p {
+  padding-bottom: 2rem;
+}
+.prep-and-ingredients-sect p {
+  padding-bottom: 1rem;
+}
+
+.step-sect {
+  background: var(--tetriary-color);
+}
+.step-sect h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.step-sect ol {
+  margin-top: 2rem;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+.step-sect ol li:not(:last-child) {
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=recipe.css.map */
