@@ -38,16 +38,17 @@ section{
         right:20%;
         bottom:15%;
         z-index: 2;
-        button{
+        a{
             position: relative;
+            align-self: flex-end;
+            right:10%;
+        button{            
             background: var(--fourth-color);
             display:grid;
             place-content: center;
             width:7rem;
             height:1.5rem;
             font-size: 1.25rem;
-            align-self: flex-end;
-            right:10%;
             padding:1rem;
             border-radius:10px;
             border:none;
@@ -57,6 +58,7 @@ section{
                 color:var(--secondary-color)
             }
         }
+    }
         animation-name: entrance-rightside;
         animation-duration: 1.5s;
     }
@@ -104,10 +106,6 @@ section{
             bottom:2rem;
             translate:0;
             padding:1rem;
-            button{
-                align-self: center;
-                right: 0;
-            }
         }
         .grains{
             position: absolute;
@@ -136,10 +134,9 @@ section{
             right:0;
             translate:0;
             padding:1rem;
-            button{
+            a{
                 align-self: center;
-                right: 0;
-            }
+                right: 0;}
         }
         .grains{
             position: absolute;
@@ -168,10 +165,9 @@ section{
             right:0;
             translate:0;
             padding:1rem;
-            button{
+            a{
                 align-self: center;
-                right: 0;
-            }
+                right: 0;}
         }
         .grains{
             position: absolute;
