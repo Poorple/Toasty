@@ -1,9 +1,12 @@
-import React from "react";
+import { useEffect } from "react";
 
 const Measurements = () => {
+  useEffect(() => {
+    setTimeout(() => window.scrollTo(0, 0), 0);
+  }, []);
   return (
     <>
-      <article>
+      <section className="blog-sect">
         <h2>The Precision of Baking: Why Accuracy Matters in Bread Making</h2>
         <p>
           In the realm of baking, precision is not just a suggestion; it's the
@@ -14,7 +17,8 @@ const Measurements = () => {
           making, where the subtle balance of ingredients transforms humble
           dough into a symphony of flavor and texture.
         </p>
-
+        <img src="/flour-measure.jpg" />
+        <br />
         <p>
           In baking, precise measurements ensure consistency, reliability, and
           ultimately, success. Just as a composer meticulously selects notes to
@@ -25,7 +29,8 @@ const Measurements = () => {
           into shapeless blobs, or bread that's dense and doughy instead of
           light and airy.
         </p>
-
+        <img src="/gluten-window.jpg" />
+        <br />
         <p>
           However, there's a unique flexibility in bread making that sets it
           apart from other forms of baking. Unlike the delicate alchemy of
@@ -37,7 +42,8 @@ const Measurements = () => {
           accommodate the baker's instincts and preferences, leading to a
           personalized loaf that reflects their skill and artistry.
         </p>
-
+        <img src="/scored-bread.jpg" />
+        <br />
         <p>
           The difference between imperial and metric measurements further
           underscores the importance of precision in baking. Imperial
@@ -48,7 +54,8 @@ const Measurements = () => {
           both systems have their merits, the metric system is often favored by
           professional bakers for its precision and ease of scaling recipes.
         </p>
-
+        <img src="/kneading-dough.jpeg" />
+        <br />
         <p>
           In the end, whether you're measuring flour by the ounce or the gram,
           the key to successful baking lies in attention to detail and a respect
@@ -58,7 +65,7 @@ const Measurements = () => {
           next time you embark on a baking adventure, remember: a dash of
           precision goes a long way in the pursuit of culinary perfection.
         </p>
-      </article>
+      </section>
     </>
   );
 };
