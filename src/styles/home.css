@@ -175,6 +175,9 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
+  html {
+    scroll-snap-type: none;
+  }
   .first-section {
     text-align: center;
   }

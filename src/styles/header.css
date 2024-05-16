@@ -62,6 +62,7 @@ header ul li:hover a::after {
 
 @media screen and (max-width: 700px) {
   header h1 {
+    margin-left: 0;
     position: absolute;
     left: 50%;
     translate: -50%;

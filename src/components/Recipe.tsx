@@ -79,6 +79,10 @@ const Recipe = () => {
       </>
     );
   }
+
+  useEffect(() => {
+    setTimeout(() => window.scrollTo(0, 0), 0);
+  }, []);
   return (
     <>
       <section className="header-and-img-sect">
