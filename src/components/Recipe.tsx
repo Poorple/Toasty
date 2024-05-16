@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import breads from "../local-json/bread.json";
-import "../styles/recipe.scss";
+import "../styles/recipe.css";
 
 interface DynamicObject {
   [key: string]: any;
@@ -120,6 +120,11 @@ const Recipe = () => {
           {`These recipes were obtained from `}
           <a href={selectedBread.source}>these</a>
           {` lovely people`}
+
+          <p>
+            This website was made as a side project, all of the credit for the
+            recipes goes to the people mentioned above.
+          </p>
         </footer>
       ) : null}
     </>
