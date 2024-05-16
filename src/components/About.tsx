@@ -18,7 +18,7 @@ const About = () => {
           mass-produced slices lining grocery store shelves, bread holds a
           special place in the hearts and homes of people worldwide.
         </p>
-        <img src="/bread-history-2.jpg" />
+        <img src="/bread-history-2.jpg" alt="Fresco depicting bread" />
         <br />
         <p>
           The history of bread traces back to ancient civilizations, where early
@@ -29,7 +29,10 @@ const About = () => {
           rudimentary practice evolved into a sophisticated art form, with each
           culture adding its unique twist to the process.
         </p>
-        <img src="/bread-history-1.jpg" />
+        <img
+          src="/bread-history-1.jpg"
+          alt="Art depicting humans making bread"
+        />
         <br />
         <p>
           One cannot overlook the cultural significance of bread in societies
@@ -39,7 +42,7 @@ const About = () => {
           freshly baked bread to guests, this age-old tradition fosters
           connections and strengthens bonds among individuals.
         </p>
-        <img src="/bread-history-3.jpg" />
+        <img src="/bread-history-3.jpg" alt="Splitting bread by hand" />
         <br />
         <p>
           Furthermore, bread serves as a canvas for culinary creativity,
@@ -50,7 +53,10 @@ const About = () => {
           ingredients, traditions, and techniques passed down through
           generations.
         </p>
-        <img src="/bread-history-4.jpg" />
+        <img
+          src="/bread-history-4.jpg"
+          alt="Depiction of a bread display in a bakery"
+        />
         <br />
         <p>
           In recent years, there has been a resurgence of interest in artisanal
@@ -60,7 +66,7 @@ const About = () => {
           rekindled the love affair with traditional breads, captivating
           enthusiasts with their rustic loaves and intricate sourdoughs.
         </p>
-        <img src="/bread-history-5.webp" />
+        <img src="/bread-history-5.webp" alt="Artisan bread" />
         <br />
         <p>
           However, amidst this revival of artisanal bread, the mass production
@@ -71,7 +77,10 @@ const About = () => {
           consume, there is a renewed emphasis on seeking out wholesome, locally
           sourced breads that nourish both body and soul.
         </p>
-        <img src="/bread-history-6.webp" />
+        <img
+          src="/bread-history-6.webp"
+          alt="Fresco depicting baker selling bread"
+        />
         <br />
         <p>
           In conclusion, bread transcends its humble ingredients to become a
