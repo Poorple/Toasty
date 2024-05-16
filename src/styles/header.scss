@@ -8,6 +8,7 @@ header{
     width:100%;
     align-content: space-around;
     height: 4rem;
+    scroll-snap-align: start;
     a {
         position: absolute;
         display:flex;
@@ -62,3 +63,14 @@ header{
         
     }
 }
+@media screen and (max-width:700px) {
+    header{
+      h1{
+        position: absolute;
+        left:50%;
+        translate:-50%;
+      }
+        ul{
+        display:none;
+    }
+}}

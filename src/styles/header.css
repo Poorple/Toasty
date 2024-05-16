@@ -7,6 +7,7 @@ header {
   width: 100%;
   align-content: space-around;
   height: 4rem;
+  scroll-snap-align: start;
 }
 header a {
   position: absolute;
@@ -57,4 +58,15 @@ header ul li {
 header ul li:hover a::after {
   visibility: visible;
   transform: scaleX(1);
+}
+
+@media screen and (max-width: 700px) {
+  header h1 {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+  }
+  header ul {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */

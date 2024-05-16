@@ -73,6 +73,19 @@
         li:not(:last-child){
             margin-bottom:3rem;
         }
+        li:last-child{
+            padding-bottom:1rem
+        }
+    }
+}
+footer{
+    background:black;
+    color:white;
+    padding:1rem;
+    scroll-snap-align: start;
+    height:fit-content;
+    a{
+        color:aquamarine
     }
 }
 
@@ -82,6 +95,7 @@
     translate:0;
     display:flex;
     flex-direction: column;
+    height: fit-content;
     .prep-and-ingredients-sect{
         position: static;
         width:100%;

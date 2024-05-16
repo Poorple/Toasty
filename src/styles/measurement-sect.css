@@ -1,0 +1,66 @@
+.measurement-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.measurement-grid h2 {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.measurement-grid img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 50dvw;
+  height: 100%;
+}
+.measurement-grid .measurement-content-div {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.measurement-grid .measurement-content-div a {
+  text-decoration: none;
+}
+.measurement-grid .measurement-content-div a button {
+  background: var(--primary-color);
+  color: var(--tetriary-color);
+  display: grid;
+  place-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+}
+.measurement-grid .measurement-content-div a button:hover {
+  background: var(--tetriary-color);
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
+  .measurement-grid .measurement-content-div {
+    padding: 2rem;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .measurement-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .measurement-grid img {
+    max-width: 100dvw;
+    width: 100%;
+  }
+}/*# sourceMappingURL=measurement-sect.css.map */

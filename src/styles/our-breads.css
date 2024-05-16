@@ -1,13 +1,13 @@
-.bread-div {
+.bread-sect {
   background: var(--tetriary-color);
 }
-.bread-div h2 {
+.bread-sect h2 {
   text-align: center;
   font-size: 2.5rem;
   padding-top: 1rem;
   margin-bottom: 1rem;
 }
-.bread-div .bread-sect {
+.bread-sect .bread-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -15,17 +15,19 @@
   padding: 1rem;
   height: -moz-max-content;
   height: max-content;
+  padding-left: 15dvw;
+  padding-right: 15dvw;
 }
-.bread-div .bread-sect a {
+.bread-sect .bread-div a {
   text-decoration: none;
   color: black;
 }
-.bread-div .bread-sect article {
+.bread-sect .bread-div a article {
   position: relative;
   background: #ffffff;
   display: grid;
   grid-template-rows: 70% auto;
-  height: 100%;
+  height: 35rem;
   min-width: 20rem;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -33,48 +35,49 @@
   padding-right: 30px;
   padding-bottom: 30px;
 }
-.bread-div .bread-sect article.hidden {
+.bread-sect .bread-div a article.hidden {
   opacity: 0;
-  transition: all 0.5s;
-  animation: entrance-delay 0.5s ease forwards;
+  transform: translateX(-500%);
+  transition: all 0s;
 }
-.bread-div .bread-sect article.visible {
+.bread-sect .bread-div a article.visible {
   opacity: 1;
-  transition: all 0.5s;
+  transform: translateX(0);
+  transition: 1s;
 }
-.bread-div .bread-sect article:nth-of-type(1) {
+.bread-sect .bread-div a:nth-of-type(1) .visible {
   transition-delay: 200ms;
 }
-.bread-div .bread-sect article:nth-of-type(2) {
+.bread-sect .bread-div a:nth-of-type(2) .visible {
   transition-delay: 400ms;
 }
-.bread-div .bread-sect article:nth-of-type(3) {
+.bread-sect .bread-div a:nth-of-type(3) .visible {
   transition-delay: 600ms;
 }
-.bread-div .bread-sect article:nth-of-type(4) {
+.bread-sect .bread-div a:nth-of-type(4) .visible {
   transition-delay: 800ms;
 }
-.bread-div .bread-sect article:nth-of-type(5) {
+.bread-sect .bread-div a:nth-of-type(5) .visible {
   transition-delay: 1000ms;
 }
-.bread-div .bread-sect article:nth-of-type(6) {
+.bread-sect .bread-div a:nth-of-type(6) .visible {
   transition-delay: 1200ms;
 }
-.bread-div .bread-sect article:nth-of-type(7) {
+.bread-sect .bread-div a:nth-of-type(7) .visible {
   transition-delay: 1400ms;
 }
-.bread-div .bread-sect article:nth-of-type(8) {
+.bread-sect .bread-div a:nth-of-type(8) .visible {
   transition-delay: 1600ms;
 }
-.bread-div .bread-sect article img {
+.bread-sect .bread-div a img {
   margin-top: 2rem;
   width: 100%;
-  height: 80%;
+  height: 90%;
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.bread-div .bread-sect article .desc-div {
+.bread-sect .bread-div a .desc-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,24 +86,40 @@
 
 @keyframes entrance-delay {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-500%);
   }
   to {
     transform: translateX(0);
   }
 }
+@media screen and (max-width: 2000px) {
+  .bread-sect .bread-div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 @media screen and (max-width: 1500px) {
-  .bread-div .bread-sect {
+  .bread-sect .bread-div {
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 1000px) {
-  .bread-div .bread-sect {
+  .bread-sect .bread-div {
     grid-template-columns: 1fr 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .bread-sect .bread-div a article.hidden {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
-@media screen and (max-width: 600px) {
-  .bread-div .bread-sect {
+@media screen and (max-width: 700px) {
+  .bread-sect .bread-div {
     grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }/*# sourceMappingURL=our-breads.css.map */

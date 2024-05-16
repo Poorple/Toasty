@@ -10,25 +10,21 @@
   height: 100%;
 }
 
-.aa {
+.ingredients-and-step-sect {
   width: 70dvw;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 0;
 }
-.aa > section {
+.ingredients-and-step-sect > section {
   translate: 0;
   left: 0;
 }
 
 .prep-and-ingredients-sect {
   padding-left: 2rem;
-  position: sticky;
-  top: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100dvh;
-  height: 100dvh;
   font-size: 1.25rem;
   overscroll-behavior: contain;
   background: var(--fourth-color);
@@ -78,4 +74,42 @@
 }
 .step-sect ol li:not(:last-child) {
   margin-bottom: 3rem;
+}
+.step-sect ol li:last-child {
+  padding-bottom: 1rem;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 1rem;
+  scroll-snap-align: start;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer a {
+  color: aquamarine;
+}
+
+@media screen and (max-width: 1400px) {
+  .ingredients-and-step-sect {
+    left: 0;
+    translate: 0;
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .ingredients-and-step-sect .prep-and-ingredients-sect {
+    position: static;
+    width: 100%;
+    width: 100dvw;
+  }
+  .ingredients-and-step-sect .step-sect {
+    width: 100%;
+    width: 100dvw;
+  }
+  .ingredients-and-step-sect .step-sect ol {
+    padding-right: 2rem;
+  }
 }/*# sourceMappingURL=recipe.css.map */
