@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
-html{
-    scroll-snap-type:y proximity;
-}
 section{
     position: relative;
     width:100vw;
@@ -10,7 +7,6 @@ section{
     min-height: 40rem;
     left:50%;
     translate:-50%;
-    scroll-snap-align: start;
 }
 .first-section{       
     position:relative;
@@ -158,9 +154,6 @@ section{
         }}
     }
 @media screen and (max-width: 600px) {
-    html{
-        scroll-snap-type: none;
-    }
     .first-section{
         text-align: center;
         h2{
