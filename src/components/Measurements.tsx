@@ -17,7 +17,11 @@ const Measurements = () => {
           making, where the subtle balance of ingredients transforms humble
           dough into a symphony of flavor and texture.
         </p>
-        <img src="/flour-measure.jpg" alt="Measuring flour on a scale" />
+        <img
+          loading="lazy"
+          src="/flour-measure.jpg"
+          alt="Measuring flour on a scale"
+        />
         <br />
         <p>
           In baking, precise measurements ensure consistency, reliability, and
@@ -29,7 +33,11 @@ const Measurements = () => {
           into shapeless blobs, or bread that's dense and doughy instead of
           light and airy.
         </p>
-        <img src="/gluten-window.jpg" alt="Example of a gluten window" />
+        <img
+          loading="lazy"
+          src="/gluten-window.jpg"
+          alt="Example of a gluten window"
+        />
         <br />
         <p>
           However, there's a unique flexibility in bread making that sets it
@@ -42,7 +50,7 @@ const Measurements = () => {
           accommodate the baker's instincts and preferences, leading to a
           personalized loaf that reflects their skill and artistry.
         </p>
-        <img src="/scored-bread.jpg" alt="Scored bread" />
+        <img loading="lazy" src="/scored-bread.jpg" alt="Scored bread" />
         <br />
         <p>
           The difference between imperial and metric measurements further
@@ -54,7 +62,11 @@ const Measurements = () => {
           both systems have their merits, the metric system is often favored by
           professional bakers for its precision and ease of scaling recipes.
         </p>
-        <img src="/kneading-dough.jpeg" alt="Kneading dough by hand" />
+        <img
+          loading="lazy"
+          src="/kneading-dough.jpeg"
+          alt="Kneading dough by hand"
+        />
         <br />
         <p>
           In the end, whether you're measuring flour by the ounce or the gram,
