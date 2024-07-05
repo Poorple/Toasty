@@ -18,7 +18,11 @@ const About = () => {
           mass-produced slices lining grocery store shelves, bread holds a
           special place in the hearts and homes of people worldwide.
         </p>
-        <img src="/bread-history-2.jpg" alt="Fresco depicting bread" />
+        <img
+          loading="lazy"
+          src="/bread-history-2.jpg"
+          alt="Fresco depicting bread"
+        />
         <br />
         <p>
           The history of bread traces back to ancient civilizations, where early
@@ -30,6 +34,7 @@ const About = () => {
           culture adding its unique twist to the process.
         </p>
         <img
+          loading="lazy"
           src="/bread-history-1.jpg"
           alt="Art depicting humans making bread"
         />
@@ -42,7 +47,11 @@ const About = () => {
           freshly baked bread to guests, this age-old tradition fosters
           connections and strengthens bonds among individuals.
         </p>
-        <img src="/bread-history-3.jpg" alt="Splitting bread by hand" />
+        <img
+          loading="lazy"
+          src="/bread-history-3.jpg"
+          alt="Splitting bread by hand"
+        />
         <br />
         <p>
           Furthermore, bread serves as a canvas for culinary creativity,
@@ -54,6 +63,7 @@ const About = () => {
           generations.
         </p>
         <img
+          loading="lazy"
           src="/bread-history-4.jpg"
           alt="Depiction of a bread display in a bakery"
         />
@@ -66,7 +76,7 @@ const About = () => {
           rekindled the love affair with traditional breads, captivating
           enthusiasts with their rustic loaves and intricate sourdoughs.
         </p>
-        <img src="/bread-history-5.webp" alt="Artisan bread" />
+        <img loading="lazy" src="/bread-history-5.webp" alt="Artisan bread" />
         <br />
         <p>
           However, amidst this revival of artisanal bread, the mass production
@@ -78,6 +88,7 @@ const About = () => {
           sourced breads that nourish both body and soul.
         </p>
         <img
+          loading="lazy"
           src="/bread-history-6.webp"
           alt="Fresco depicting baker selling bread"
         />
